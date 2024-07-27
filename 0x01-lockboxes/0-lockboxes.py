@@ -1,4 +1,5 @@
 #!/usr/bin/python3
+"""Locked Boxes challenge"""
 
 def canUnlockAll(boxes):
     """function that determines if all boxes are opened"""
