@@ -2,11 +2,13 @@
 """Supplies function that return the perimeter of island
 """
 
+
 def island_perimeter(grid):
     """
     Returns the perimeter of the island described in the grid.
 
-    :param grid: List[List[int]] - A list of lists where 0 represents water and 1 represents land.
+    :param grid: List[List[int]] - A list of lists where 0 represents
+     water and 1 represents land.
     :return: int - The perimeter of the island.
     """
     perimeter = 0
