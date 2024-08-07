@@ -4,7 +4,8 @@
 
 
 def sieve_of_eratosthenes(max_num):
-    """Generate a list of primes up to max_num using the Sieve of Eratosthenes."""
+    """Generate a list of primes up to max_num using the Sieve of Eratosthenes.
+    """
     is_prime = [True] * (max_num + 1)
     is_prime[0] = is_prime[1] = False  # 0 and 1 are not prime numbers
 
@@ -20,7 +21,8 @@ def sieve_of_eratosthenes(max_num):
 
 
 def play_game(n, primes):
-    """Simulate the game for a given n using the list of primes and return the winner."""
+    """Simulate the game for a given n using the list of primes and\
+       return the winner."""
     remaining = set(range(1, n + 1))
     current_player = 'Maria'
 
@@ -37,6 +39,7 @@ def play_game(n, primes):
             return 'Ben' if current_player == 'Maria' else 'Maria'
 
         current_player = 'Ben' if current_player == 'Maria' else 'Maria'
+
 
 def isWinner(x, nums):
     """Determine the player who won the most rounds."""
